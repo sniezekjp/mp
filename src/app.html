@@ -1,0 +1,6 @@
+<template>
+  <require from="./resources/elements/dropdown"></require>
+  <dropdown options.bind="visibility" current.bind="currentVisibility"></dropdown>
+  <dropdown if.bind="!isLoadingLevels" options.bind="level" current.bind="currentLevel"></dropdown>
+  ${isLoadingLevels}
+</template>
