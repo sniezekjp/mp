@@ -1,5 +1,6 @@
 import {HttpClient} from 'aurelia-http-client';
 
+// status
 export class App {
   visibility = [];
   level = [];
